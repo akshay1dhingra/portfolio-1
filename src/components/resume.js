@@ -14,13 +14,12 @@ class Resume extends Component {
                             <h2 style={{ paddingTop: '.5em' }}>Akshay Dhingra</h2>
                             <h4 style={{ color: 'grey' }}>Frontend Engineer</h4>
                             <hr style={{ borderTop: '3px solid #883fb2', width: '100%' }} />
-                            <p>HELLO
+                            <p>
                                 I began my journey as a developer a bit later than most people you may know, but it was life changing for me.
                                 I graduated from University of Illinois at Chicago with a Biology degree with the plan of going to medical school, but
                                 the downturn of the recession forced me to make a hard decision which lead me to a career in sales. Having worked in
-                                different capacities, such as Real Estate broker and a SaaS salesman, it was 3 years ago that I had discovered code and
-                                reminded me what it was like being a student again. I joined and completed the Flatiron School Bootcamp in early 2019, and
-                                have worked with a number of developement teams since then. I am now looking to join a team that will allow me to grow as a
+                                different capacities, such as Real Estate broker and a SaaS salesman, it was 3 years ago that I had started coding. I joined and completed the Flatiron School Bootcamp, and
+                                have worked with a number of companies and developement teams since then. I am now looking to join a team that will allow me to grow as a
                                 developer while contributing to a good cause.
                             </p>
                         </div>
@@ -28,7 +27,7 @@ class Resume extends Component {
                     <Cell className="resume-right-col" col={8}>
                         <h2>Education</h2>
                         <Education
-                            startYear={"2019"}
+                            startYear={"2017"}
                             schoolName={"Flatiron School"}
                             schoolDescription={"Fullstack Coding Bootcamp focusing in React/Redux, JS/HTML/CSS, Ruby/Rails, SQLite, ActiveRecord and Sinatra"}
                         />
@@ -40,39 +39,25 @@ class Resume extends Component {
                         />
                         <h2>Experience</h2>
                         <Experience
-                            startYear={"2019"}
+                            startYear={"2018"}
                             endYear={"current"}
                             companyName={"Albert.io"}
                             companyTitle={"Frontend Engineer"}
-                            companyDescription={"Used React, SCSS, and other 3rd party libraries to architect and develop user-facing features. Fixed over 40 bugs in first 90 days. Helped migrate the project from React 15 to 16 by removing deprecated code and implementing hooks. Created reusable, context-agnostic design system components. Worked with two project managers, eleven developers and quality assurance contributors to resolve technical issues"}
-                        />
-                        <Experience
-                            startYear={"2019"}
-                            endYear={"2019"}
-                            companyName={"CDM Media"}
-                            companyTitle={"Junior Web Application Developer"}
-                            companyDescription={"Collaborated with Enterprise Account Executives to manage 150+ client relationships Implemented social selling and social recruitment strategies to drive leads and fill open job positions, Responsible for my own marketing, full sale cycle, closing and relationship management Used social media to market listings and attract new buyers to generate pipeline"}
+                            companyDescription={"Used React, SCSS, and other 3rd party libraries to architect and develop user-facing features. Helped migrate the project from React 15 to 16 by removing deprecated code and implementing hooks. Created reusable, context-agnostic design system components. Worked with two project managers, eleven developers and quality assurance contributors to resolve technical issues"}
                         />
                         <Experience
                             startYear={"2018"}
-                            endYear={"2019"}
-                            companyName={"Sprout Social"}
-                            companyTitle={"Enterprise Business Developer"}
-                            companyDescription={"Collaborated with Enterprise Account Executives to manage 150+ client relationships Implemented social selling and social recruitment strategies to drive leads and fill open job positions, Responsible for my own marketing, full sale cycle, closing and relationship management Used social media to market listings and attract new buyers to generate pipeline"}
+                            endYear={"2018"}
+                            companyName={"CDM Media"}
+                            companyTitle={"Web Application Developer"}
+                            companyDescription={"Worked closely with the CTO in refactoring Javascript and React code for an internal application. Removed dangerous bugs and deprecated code while maintaining proper functionality. Performed rigorous QA testing for the release of version 2 of the product"}
                         />
                         <Experience
                             startYear={"2017"}
-                            endYear={"2018"}
-                            companyName={"Saggezza"}
-                            companyTitle={"Inside Sales Rep"}
-                            companyDescription={"Team lead and campaign outreach chair Identifying software solutions and consultation opportunities for new businesses Cold-call and cold-email to technology and financial verticals"}
-                        />
-                        <Experience
-                            startYear={"2015"}
-                            endYear={"2018"}
-                            companyName={"@Properties"}
-                            companyTitle={"Real Estate Broker"}
-                            companyDescription={"Brokered sales for residential properties in Chicago"}
+                            endYear={"2017"}
+                            companyName={"EZ Funnls"}
+                            companyTitle={"UI Developer"}
+                            companyDescription={"Built reusable React components using popular libraries such as Material UI and ImmutableJS. Built and maintained static landing pages for various drop-ship products. Built wordpress pages for various blog and podcast sites "}
                         />
                         <h2>Skills</h2>
                         <Skills
